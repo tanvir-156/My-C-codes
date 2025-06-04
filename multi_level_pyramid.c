@@ -11,7 +11,6 @@ int main() {
 
     for (int row = 1; row <= numPyramids; row++) {
         for (int i = 1; i <= size; i++) { 
-            // Direct calculation of spaces before each line
             int spacesBefore = (numPyramids - row) * size + (size - i);
 
             for (int j = 0; j < spacesBefore; j++) printf(" ");
